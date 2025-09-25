@@ -1,0 +1,12 @@
+[submodule "demo/client-fast-agent"]
+	path = demo/client-fast-agent
+	url = https://github.com/openwallet-foundation-labs/fast-agent.git
+[submodule "demo/server-duckduckgo"]
+	path = demo/server-duckduckgo
+	url = https://github.com/openwallet-foundation-labs/duckduckgo-mcp-server.git
+[submodule "demo/server-gmail"]
+	path = demo/server-gmail
+	url = https://github.com/openwallet-foundation-labs/gmail-mcp-server.git
+[submodule "demo/server-simple-timeserver"]
+	path = demo/server-simple-timeserver
+	url = https://github.com/bakayu/mcp-simple-timeserver.git
