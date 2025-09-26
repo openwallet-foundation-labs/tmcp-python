@@ -37,10 +37,10 @@ The server will print the encoded and decoded MCP over TSP messages that it send
 
 If you want to use TMCP with other existing MCP servers, some minor modification is required.
 
-First, update the MCP Python SDK dependency to our fork with the following command:
+First, update the MCP Python SDK dependency to our fork, and install the TMCP transport hook with the following command:
 
 ```
-uv add git+https://github.com/openwallet-foundation-labs/mcp-over-tsp-python
+uv add git+https://github.com/openwallet-foundation-labs/mcp-transport-hooks git+https://github.com/openwallet-foundation-labs/tmcp-python
 ```
 
 Then, if the server uses the `FastMCP` server, configure it to use the TMCP transport hook. For example:
